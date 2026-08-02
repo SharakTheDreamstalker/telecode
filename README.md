@@ -27,7 +27,7 @@ I built TeleCode because AI coding agents changed the shape of my day. The real 
 | macOS 13+ · Apple Silicon | [TeleCode.dmg](https://dl.telecode.cc/mac/TeleCode.dmg) |
 | Ubuntu / Debian | `curl -fsSL https://dl.telecode.cc/install.sh \| sh` |
 
-> **A note on Windows:** the installer isn't code-signed yet (signing certificates are unreasonably hostile to individual developers), so SmartScreen may show *"Windows protected your PC"* on first run. Click **More info → Run anyway** — the download is served from our own CDN and the SHA-256 is listed on each [release](../../releases). A `winget` package is [under review](https://github.com/microsoft/winget-pkgs/pull/407305); once it lands, `winget install TeleCode.TeleCode` will be the cleanest way in.
+> **A note on Windows:** the installer and all executables are code-signed (Certum). SmartScreen reputation for the certificate is still building, so *"Windows protected your PC"* may appear on first run — click **More info → Run anyway** if it does. The SHA-256 of every download is listed on each [release](../../releases). A `winget` package is [under review](https://github.com/microsoft/winget-pkgs/pull/407305); once it lands, `winget install TeleCode.TeleCode` will be the cleanest way in.
 
 **Phone / tablet:** the iOS and Android apps are in store review and should be up shortly. Until then, the web client works on mobile too.
 
